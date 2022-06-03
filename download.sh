@@ -23,4 +23,4 @@ echo "downloading mergenet weights ..."
 wget https://sfu.ca/~yagiz/CVPR21/latest_net_G.pth
 mv latest_net_G.pth BoostingMonocularDepth/pix2pix/checkpoints/mergemodel/
 wget https://github.com/AlexeyAB/MiDaS/releases/download/midas_dpt/midas_v21-f6b98070.pt 
-mv model-f46da743.pt BoostingMonocularDepth/midas/model.pt
+mv midas_v21-f6b98070.pt BoostingMonocularDepth/midas/model.pt
