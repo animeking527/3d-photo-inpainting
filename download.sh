@@ -9,7 +9,6 @@ wget https://filebox.ece.vt.edu/~jbhuang/project/3DPhoto/model/depth-model.pth
 wget https://filebox.ece.vt.edu/~jbhuang/project/3DPhoto/model/edge-model.pth
 wget https://filebox.ece.vt.edu/~jbhuang/project/3DPhoto/model/model.pt
 
-
 mv color-model.pth checkpoints/.
 mv depth-model.pth checkpoints/.
 mv edge-model.pth checkpoints/.
